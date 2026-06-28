@@ -328,7 +328,7 @@ C  SET ARGUMENTS
              map%source = 'UKMO'
            else if (icenter .eq. 78 .or. icenter .eq. 79 ) then
              map%source = 'DWD'
-           else if (icenter .eq. 38) then     ! Edited by Geek-007
+           else if (icenter .eq. 38) then 
              map%source = 'CMA'
            else
              map%source = 'unknown model and orig center'
